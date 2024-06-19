@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div>
-      <h2>empty</h2>
-    </div>
+    <>
+    <Header/>
+      <Outlet/>
+    <Footer/>
+    </>
   );
-}
+};
 
 export default App;
