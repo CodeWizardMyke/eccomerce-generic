@@ -8,7 +8,7 @@ import './Header.css'
 
 function Header() {
   return (
-    <header className='conteiner'>
+    <header className='container'>
       <div className='header'>
       <button type='button' className='btn-menu'><IoMenu /></button>
       <div className='content-logo'>
