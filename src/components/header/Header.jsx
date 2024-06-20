@@ -8,7 +8,7 @@ import SearchBar from '../search-bar/SearchBar';
 
 function Header() {
   return (
-    <header className='container'>
+    <header className='container d-header'>
       <div className='header'>
       <button type='button' className='btn-menu'><IoMenu /></button>
       <div className='content-logo'>

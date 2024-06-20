@@ -1,3 +1,11 @@
+.d-header{
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 40px ;
+    transform: translate(-50%, -50%);
+    background-color: #9c9c9c;
+}
 .header{
     padding: 5px 15px;
     display: flex;
